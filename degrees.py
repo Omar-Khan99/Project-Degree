@@ -83,6 +83,7 @@ def main():
             person2 = people[path[i + 1][1]]["name"]
             movie = movies[path[i + 1][0]]["title"]
             print(f"{i + 1}: {person1} and {person2} starred in {movie}")
+        print("Hi omar")
 
 
 def shortest_path(source, target):
